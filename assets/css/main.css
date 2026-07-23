@@ -2629,10 +2629,13 @@ input, select, textarea {
 
 	.galeria img{
 	    width:100%;
-	    height:250px;
-	    object-fit:cover;
+	    transition:0.3s;
+	    cursor:pointer;
 	}
 	
+	.galeria img:hover{
+	    transform:scale(1.05);
+	}
 
 	.lightbox{
 		display:none;
